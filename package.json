@@ -2,6 +2,8 @@
   "name": "gif-app",
   "version": "0.1.0",
   "private": true,
+  "description": "Buscador de imagenes gif",
+  "homepage": "https://marco5x.github.io/gif-app/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
