@@ -24,7 +24,7 @@ const App = () => {
             ) : (
                 gif.map((img) => <GifGrid key={img} category={img} />)
             )}
-            <Footer />
+            <Footer />{console.log(gif)}
         </div>
     );
 };

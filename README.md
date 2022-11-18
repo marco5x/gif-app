@@ -6,6 +6,13 @@ Proyect web for searh your image gif favorite
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### `Proyect Clone`
+
+In the console git clone [https://github.com/marco5x/gif-app.git]
+
+### `Install dependencies`
+
+npm install or yarn install
 
 ### `npm start`
 
