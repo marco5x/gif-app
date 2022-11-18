@@ -4,12 +4,9 @@
 
 @layer components {
   .btn-primary {
-      @apply bg-blue-500 text-white active:bg-blue-600 hover:bg-blue-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
+      @apply p-3 rounded text-4xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ease-linear transition-all duration-150;
   }
-  .btn-secondary {
-      @apply bg-red-500 text-white active:bg-blue-600 hover:bg-red-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150;
-  }
-  .skill-card {
-      @apply flex flex-col w-40 p-10 sm:m-6 m-2 overflow-hidden bg-white shadow-2xl rounded-2xl sm:w-52;
+  .card-item {
+      @apply flex flex-col w-96 p-2 sm:m-2 p-5 overflow-hidden bg-white shadow-xl rounded;
   }
 }
