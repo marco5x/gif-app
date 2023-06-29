@@ -4,7 +4,7 @@
 
 @layer components {
   .btn-primary {
-      @apply p-3 rounded text-4xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ease-linear transition-all duration-150;
+      @apply p-3 rounded text-4xl bg-gradient-to-r from-green-400 to-blue-500 hover:from-pink-500 hover:to-yellow-500 ease-linear transition-all duration-300;
   }
   .card-item {
       @apply flex flex-col w-96 p-2 sm:m-2 p-5 overflow-hidden bg-white shadow-xl rounded;

@@ -6,7 +6,6 @@ import { AiOutlineFileGif } from "react-icons/ai";
 
 const App = () => {
     const [gif, setGif] = useState(["Messi"]);
-
     const onAddCategory = (newCategory) => {
         if (gif.includes(newCategory)) return;
         setGif([newCategory]);
@@ -24,7 +23,7 @@ const App = () => {
             ) : (
                 gif.map((img) => <GifGrid key={img} category={img} />)
             )}
-            <Footer />{console.log(gif)}
+            <Footer />
         </div>
     );
 };
